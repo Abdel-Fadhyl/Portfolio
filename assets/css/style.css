@@ -54,6 +54,7 @@
 }
 
 .navbar .menu li a {
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -62,11 +63,9 @@
     text-align: center;
     padding-top: 80px;
 }
-
 .navbar .menu li a:hover {
     color: crimson;
 }
-
 .navbar.sticky .menu li a:hover {
     color: #fff;
 }
@@ -115,20 +114,24 @@
 }
 
 .home .home-content .text-1{
+    font-family: 'Poppins', sans-serif;
     font-size: 27px; 
 }
 .home .home-content .text-2{
+    font-family: 'Poppins', sans-serif;
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 
 }
 .home .home-content .text-3{
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     margin: 5px 0; 
 }
 
 .home .home-content .text-3 span {
+    font-family: 'Poppins', sans-serif;
     color: crimson;
     font-weight: 500;
 }
