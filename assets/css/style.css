@@ -41,11 +41,11 @@
 
 .navbar .logo a span {
     color: crimson;
+    transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
     color: #fff;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li {
@@ -53,15 +53,13 @@
     display: inline-block;
 }
 
-.navbar .menu li a {
+.navbar .menu li a{
     display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    text-align: center;
-    padding-top: 80px;
 }
 .navbar .menu li a:hover {
     color: crimson;
@@ -294,6 +292,27 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* Button Service styling */
+.card .box .btn{
+    background: white;
+    color: #333;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card .box .btn::after, .card .box .btn::before{
+    position: absolute;
+    opacity: 0.3;
+    background: white;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
 /* skills styling */
 .skills .title::after{
     content: 'Skills';
