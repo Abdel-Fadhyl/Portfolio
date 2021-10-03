@@ -101,7 +101,7 @@
 
 .home {
     display: flex;
-    background: url("/assets/img/Screenshot\ 2021-09-19\ at\ 20.54.45.png");
+    background: rgb(255, 0, 0);
     height: 100vh;
     color: #fff;
     min-width: 500px;
